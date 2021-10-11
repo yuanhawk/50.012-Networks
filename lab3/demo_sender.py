@@ -7,7 +7,7 @@ import util
 
 if __name__ == '__main__':
   if len(sys.argv) != 2:
-    print('Usage: python demo_sender.py [dummy|ss|gbn]')
+    print('Usage: python demo_sender.py [dummy|ss|gbn|sr]')
     sys.exit(1)
 
   transport_layer = None
