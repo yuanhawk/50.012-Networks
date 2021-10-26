@@ -9,4 +9,5 @@ sudo python3.4 get-pip.py
 # install matplotlib package for lab4 plotting figures
 # if occur 'cannot uninstall six', try adding the flags --ignore-installed six
 # sudo pip3.4 install matplotlib --ignore-installed six
-sudo pip3.4 install matplotlib
+# sudo pip3.4 install matplotlib
+sudo pip3.4 install -r requirements.txt
